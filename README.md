@@ -25,29 +25,8 @@ This project is a **real-time face and eye detection web application** built usi
   
 ---
 
-## 📂 Project Structure
+## 📂 Folder & File Descriptions
 
-📂 Face_Eye_Detection
-
-│-- 📂 static
-
-│   │-- 📂 css
-
-│   │   └── style.css
-
-│   │-- 📂 js
-│   │   └── script.js
-│-- 📂 templates
-│   └── index.html
-│-- 📂 Haarcascades
-│   │-- haarcascade_frontalface_default.xml
-│   │-- haarcascade_eye.xml
-│-- app.py
-│-- requirements.txt
-│-- README.md
-
-
-### **Folder & File Descriptions**
 - **`static/`** → Contains CSS & JavaScript files for UI styling and interactions.  
 - **`templates/`** → Contains the `index.html` file for rendering the web page.  
 - **`Haarcascades/`** → Stores the pre-trained Haar cascade classifiers for face & eye detection.  
@@ -59,13 +38,13 @@ This project is a **real-time face and eye detection web application** built usi
 
 ## 🛠️ Setup & Installation  
 
-### 🔹 **1. Clone the Repository**  
+### **🔹 Clone the Repository**  
 ```bash
-git clone https://github.com/your-username/Face-Eye-Detection-Flask.git
+git clone https://github.com/raahulramakrishnan09/Face-Eye-Detection-Flask.git
 cd Face-Eye-Detection-Flask
 ```
 
-### **Create & Activate a Virtual Environment**
+### **🔹 Create & Activate a Virtual Environment**
 ```bash
 # On Windows
 python -m venv venv
@@ -75,15 +54,26 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 ```
-### **Install Dependencies**
+### **🔹 Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
-### **Run the Flask Application**
+### **🔹 Run the Flask Application**
 ```bash
 python app.py
 ```
-### **Open in Browser**
-```bash
-Go to **http://127.0.0.1:5000/** in your web browser.
-```
+### **🔹 Open in Browser**
+
+Go to **`http://127.0.0.1:5000/`** in your web browser.
+
+---
+
+## **📜 API Endpoints**
+**`/`**	           →  Renders the homepage with the live stream
+
+**`/video_feed`**	 →  Provides the real-time video feed for detection
+
+---
+
+## 📄 License
+This project is open-source and available under the **`MIT License.**`
