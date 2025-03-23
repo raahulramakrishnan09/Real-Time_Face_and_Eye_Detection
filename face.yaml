@@ -1,0 +1,9 @@
+
+---
+
+## 🎯 Setup & Installation
+
+### 🔹 1. Clone the Repository  
+```bash
+git clone https://github.com/your-username/Face-Eye-Detection-Flask.git
+cd Face-Eye-Detection-Flask
