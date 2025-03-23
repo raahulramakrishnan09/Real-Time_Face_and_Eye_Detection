@@ -39,27 +39,28 @@ This project is a **real-time face and eye detection web application** built usi
 ## 🛠️ Setup & Installation  
 
 ### **🔹 Clone the Repository**  
-```bash
+```python
 git clone https://github.com/raahulramakrishnan09/Face-Eye-Detection-Flask.git
 cd Face-Eye-Detection-Flask
 ```
 
 ### **🔹 Create & Activate a Virtual Environment**
-```bash
+```python
 # On Windows
 python -m venv venv
 venv\Scripts\activate
-
+```
+```python
 # On macOS / Linux
 python3 -m venv venv
 source venv/bin/activate
 ```
 ### **🔹 Install Dependencies**
-```bash
+```python
 pip install -r requirements.txt
 ```
 ### **🔹 Run the Flask Application**
-```bash
+```python
 python app.py
 ```
 ### **🔹 Open in Browser**
