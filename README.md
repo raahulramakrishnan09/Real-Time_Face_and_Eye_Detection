@@ -3,7 +3,7 @@
 This project is a **real-time face and eye detection web application** built using **Flask** and **OpenCV**. The system streams live video from the webcam and detects **faces and eyes** using Haar cascade classifiers.
 
 ## 📸 Demo
-![Live Streaming Preview](https://via.placeholder.com/800x400?text=Live+Face+Detection)  
+![Live Streaming Preview](static/images/live-stream.png)  
 
 ---
 
